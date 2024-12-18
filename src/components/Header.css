@@ -12,7 +12,14 @@
   justify-content: space-between;
   align-items: center;
 }
-
+.work-in-progress-banner {
+  background-color: #E8478A; /* Pink color from your theme */
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+}
 /* Logo Styling */
 .logo-container {
   flex: 1;
