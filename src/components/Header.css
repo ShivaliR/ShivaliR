@@ -1,0 +1,79 @@
+/* Header Styles */
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #8B6ED1; /* Purple background */
+  color: #FFFFFF;
+  padding: 20px 50px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo Styling */
+.logo-container {
+  flex: 1;
+}
+
+.logo {
+  width: 50px;
+  border-radius: 100%;
+  height: auto;
+  animation: scaleRotate 3s ease-in-out infinite;
+  transition: transform 0.3s ease-in-out; 
+}
+
+.logo:hover {
+  transform: scale(1.05) rotate(5deg); 
+  transition: transform 0.3s ease-in-out 1;
+}
+
+@keyframes scaleRotate {
+  0% {
+    transform: scale(1) rotate(0deg); /* Initial state */
+  }
+  50% {
+    transform: scale(1.2) rotate(15deg); /* Scale up and rotate halfway */
+  }
+  100% {
+    transform: scale(1) rotate(0deg); /* Return to original state */
+  }
+}
+
+
+/* Navigation Menu Styling */
+nav {
+  flex: 2;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Center-align the navigation items */
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #FFFFFF; /* White color for links */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #E8478A; /* Pink hover effect */
+}
+
+/* Active link styling */
+nav ul li a.active {
+  color: #E8478A; /* Pink color for active link */
+}

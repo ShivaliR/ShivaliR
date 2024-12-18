@@ -1,0 +1,165 @@
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+  line-height: 1.6;
+}
+body .website{
+  background-color: #8B6ED1;
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+/* Contact Section */
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #E8478A;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333333;
+}
+
+.contact-form button {
+  background-color: #E8478A;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #8B6ED1;
+  color: #FFFFFF;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #8B6ED1;
+  color: #FFFFFF;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+.profile-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover; 
+  border-radius: 50%; 
+  margin: 20px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+@media (max-width: 768px) {
+  .profile-image {
+    width: 150px; 
+    height: 150px; 
+  }
+}
+/* Footer css */
+footer {
+  background-color: #E8478A;  
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: white; 
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline; 
+}
+/* About page styling  */
+/* Add in app.css or specific About component CSS */
+
+/* Section styling */
+#about {
+  padding: 50px;
+  background-color: #f9f9f9; /* Light background color */
+  color: #333;
+}
+
+
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Styling for links */
+a {
+  color: #E8478A; /* Pink color for links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Profile section */
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-container p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-image {
+    width: 120px;
+    height: 120px;
+  }
+}
+
