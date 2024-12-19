@@ -9,7 +9,7 @@ function Header() {
         <img src="/images/Portfolio.png" alt="Portfolio Logo" className="logo" />
       </div>
       <div className="work-in-progress-banner">
-        Portfolio is a work in progress. Please check back later for updates!
+        Portfolio is a WIP. Please check back later for updates!
       </div>
       <nav>
         <ul>

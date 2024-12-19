@@ -18,7 +18,7 @@ function About() {
         <li><strong>Phone: </strong><a href="tele:+91-7498734837">+91-9826255034</a></li>
         <li><strong>Email: </strong><a href="mailto:shivaliranka12@gmail.com">shivaliranka12@gmail.com</a></li>
         <li><strong>LinkedIn: </strong><a href="https://www.linkedin.com/in/shivaliranka">LinkedIn Profile</a></li>
-        <li><strong>GitHub: </strong><a href="https://github.com/shivaliranka">GitHub Profile</a></li>
+        <li><a href="https://github.com/shivaliranka">GitHub Profile</a></li>
       </ul>
 
       <h3>Education & Credentials</h3>
