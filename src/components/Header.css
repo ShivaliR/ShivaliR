@@ -2,16 +2,22 @@
 .header {
   position: sticky;
   top: 0;
-  background-color: #8B6ED1; /* Purple background */
-  color: #FFFFFF;
-  padding: 20px 50px;
+  background: linear-gradient(to right, #8B6ED1, #E8478A); /* Vibrant gradient background */
+  color: #FFFFFF; /* Text color for contrast */
+  padding: 15px 50px; /* Reduced padding for a sleeker appearance */
   text-align: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  z-index: 100;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Stronger shadow for better definition */
+  z-index: 100; /* Ensures the header is above other elements */
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 0 0 15px 15px; /* Rounded bottom corners for a modern look */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
 }
+.header:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Elevated shadow on hover */
+}
+
 .work-in-progress-banner {
   background-color: #E8478A; /* Pink color from your theme */
   color: white;
@@ -76,11 +82,3 @@ nav ul li a {
   transition: color 0.3s ease;
 }
 
-nav ul li a:hover {
-  color: #E8478A; /* Pink hover effect */
-}
-
-/* Active link styling */
-nav ul li a.active {
-  color: #E8478A; /* Pink color for active link */
-}

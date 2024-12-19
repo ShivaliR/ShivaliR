@@ -3,7 +3,7 @@
 .section {
     padding: 4rem 2rem;
     background: linear-gradient(135deg, #8B6ED1, #E8478A);
-    color: #fff;
+    color: #F5F5F5;
     font-family: 'Roboto', sans-serif;
   }
   
@@ -64,7 +64,7 @@
   }
   
   a {
-    color: #333;
+    color: #F5F5F5;
     text-decoration: none;
     transition: color 0.3s ease;
   }

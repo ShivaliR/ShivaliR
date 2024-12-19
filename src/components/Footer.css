@@ -1,0 +1,9 @@
+footer.footer div.footer-container div.footer-section .social-icons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+footer.footer div.footer-container div.footer-section .social-icons a{
+    font-size: 18px;
+}

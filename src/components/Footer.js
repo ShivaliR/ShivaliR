@@ -1,10 +1,35 @@
 import React from 'react';
+import './Footer.css'; // Create a CSS file for footer styles
 
 function Footer() {
   return (
-    <footer>
-      <p>&copy; 2024 Shivali Ranka. All rights reserved.</p>
-      <p>Contact me: <a href="mailto:shivaliranka12@gmail.com">shivaliranka12@gmail.com</a></p>
+    <footer className="footer">
+      <div className="footer-container">
+
+        {/* Contact Information Section */}
+        <div className="footer-section">
+          <h4>Contact</h4>
+          <p>Email: <a href="mailto:shivaliranka12@gmail.com">shivaliranka12@gmail.com</a></p>
+          <p>Phone: <a href="tel:+919826255034">+91-9826255034</a></p>
+        </div>
+
+        {/* Social Media Section */}
+        <div className="footer-section">
+          <h4>Follow Me</h4>
+          <div className="social-icons">
+            <a href="https://linkedin.com/in/shivaliranka" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/ShivaliR" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="footer-bottom">
+        <p>&copy; 2024 Shivali Ranka. All rights reserved.</p>
+      </div>
     </footer>
   );
 }
