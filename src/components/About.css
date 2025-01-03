@@ -1,86 +1,200 @@
-/* About.css */
+/* General Styles */
+.about-section {
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, #8B6ED1, #E8478A);
+  color: #F5F5F5;
+  font-family: 'Roboto', sans-serif;
+  animation: fadeIn 1s ease-in-out;
+}
 
-.section {
-    padding: 4rem 2rem;
-    background: linear-gradient(135deg, #8B6ED1, #E8478A);
-    color: #F5F5F5;
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  .section h2 {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
-  
-  .profile-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 2rem;
-  }
-  
-  .profile-image {
-    border-radius: 50%;
+.about-heading {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+  margin-top: 0;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Profile Card Styles */
+.profile-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+
+.profile-card {
+  background: #fff;
+  color: #333;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 0;
+}
+
+.profile-name {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #8B6ED1;
+}
+
+.profile-description {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Card Styles (Education, Expertise, Hobbies) */
+.card {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  color: #E8478A;
+  margin-bottom: 1rem;
+}
+
+.card p,
+.card li {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+/* Memories Section */
+.memories-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.memories-section h3 {
+  font-size: 2.5rem;
+  color: #FFF;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.memory-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  max-width: 100%;
+}
+.memory-image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.memory-gallery img.iimr{
+  object-position: left;
+}
+.memory-image:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .memory-image {
     width: 200px;
     height: 200px;
-    object-fit: cover;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
-  
-  .profile-container p {
-    max-width: 600px;
-    line-height: 1.8;
-    font-size: 1.2rem;
-  }
-  
-  h3 {
-    margin-top: 3rem;
-    font-size: 2rem;
-    color: #fff;
-    border-bottom: 2px solid #fff;
-    display: inline-block;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  ul li {
-    margin: 0.5rem 0;
-    font-size: 1.1rem;
-    line-height: 1.6;
-    display: flex;
-    align-items: center;
-  }
-  
-  ul li i {
-    margin-right: 1rem;
-    color: #f0f0f0;
-  }
-  
-  a {
-    color: #F5F5F5;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  a:hover {
-    color: #ffe6f0;
-  }
-  
-ul.flex-col-parent{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
-ul.flex-col-parent li{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
+
+
+/* Resume Section */
+.resume-section {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.resume-button {
+  background: #8B6ED1;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.resume-button:hover {
+  background: #E8478A;
+  transform: translateY(-5px);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-container {
+    grid-template-columns: 1fr;
+  }
+
+  .memory-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .resume-button {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+  }
 }
