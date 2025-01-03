@@ -89,11 +89,7 @@ function About() {
             alt="Memory 9"
             className="memory-image"
           />
-          <img
-            src="/images/memory-11.png"
-            alt="Memory 10"
-            className="memory-image"
-          />
+       
           <img
             src="/images/memory-12.png"
             alt="Memory 11"
