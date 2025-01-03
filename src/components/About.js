@@ -19,7 +19,7 @@ function About() {
           <div className="profile-card-content">
             <h3 className="profile-name">Hi, Shivali here! 🌟</h3>
             <p className="profile-description">
-              I'm a passionate website developer with a growing interest in the
+            📍 I'm a passionate website developer with a growing interest in the
               world of products. Currently based in Pune, but originally from
               Meghnagar and also have lived in Indore. 🏡
             </p>
@@ -43,11 +43,11 @@ function About() {
         <div className="card" id="expertise-card">
           <h3>🔧 What I Do?</h3>
           <p>
-            Building user-focused websites with technologies like JavaScript,
+          📍 Building user-focused websites with technologies like JavaScript,
             React, WordPress, PHP, ACF, Node.js, and CSS. 💻
           </p>
           <p>
-            Exploring product portfolios and studying real-world cases to merge
+          📍 Exploring product portfolios and studying real-world cases to merge
             technical expertise with a product-oriented approach. 📈
           </p>
         </div>
@@ -98,7 +98,7 @@ function About() {
         </div>
       </div>
 
-      <div className="resume-section">
+      <div className="resume-section" id="resume-section">
         <a
           id="resume-link"
           href="/files/ShivaliRanka_Resume.pdf"

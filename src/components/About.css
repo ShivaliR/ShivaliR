@@ -116,8 +116,8 @@
   max-width: 100%;
 }
 .memory-image {
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   object-position: top;
   border-radius: 12px;
