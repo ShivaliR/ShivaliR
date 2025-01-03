@@ -8,15 +8,11 @@ function Header() {
       <div className="logo-container">
         <img src="/images/Portfolio.png" alt="Portfolio Logo" className="logo" />
       </div>
-      <div className="work-in-progress-banner">
-        Portfolio is a WIP. Please check back later for updates!
-      </div>
       <nav>
-        <ul>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/portfolio/web-projects">Web Projects</Link></li>
-          <li><Link to="/portfolio/product-portfolio">Product Portfolio</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
+        <ul className="nav-list">
+          <li><Link to="/about" className="nav-link">About Me</Link></li>
+          <li><Link to="/portfolio/web-projects" className="nav-link">Web Projects</Link></li>
+          <li><Link to="/portfolio/product-portfolio" className="nav-link">Product Portfolio</Link></li>
         </ul>
       </nav>
     </header>

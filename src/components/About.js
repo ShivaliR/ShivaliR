@@ -41,7 +41,7 @@ function About() {
 
 
         <div className="card" id="expertise-card">
-          <h3>🔧 What I Do</h3>
+          <h3>🔧 What I Do?</h3>
           <p>
             Building user-focused websites with technologies like JavaScript,
             React, WordPress, PHP, ACF, Node.js, and CSS. 💻
@@ -52,13 +52,8 @@ function About() {
           </p>
         </div>
 
-        <div className="card" id="hobbies-card">
-          <h3>🌟 When I’m Happiest</h3>
-          <p>
-            When I’m solving problems, learning, improving things, or even
-            cleaning (yes, really ;)
-          </p>
-        </div>
+     
+
       </div>
 
       <div className="memories-section">
@@ -118,7 +113,26 @@ function About() {
           <button className="resume-button">📄 View Full Resume</button>
         </a>
       </div>
+      <div className="contact-section card">
+  <h3>Let's work together? 🤝</h3>
+  <form className="contact-form">
+    <div className="form-group">
+      <input type="text" id="name" placeholder="Enter your name" required />
+    </div>
+    <div className="form-group">
+      <input type="email" id="email" placeholder="Enter your email" required />
+    </div>
+    <div className="form-group">
+      <textarea id="message" placeholder="Enter your message" required></textarea>
+    </div>
+    <button type="submit">Send Message ✨</button>
+  </form>
+</div>
+
+
     </section>
+
+    
   );
 }
 
