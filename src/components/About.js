@@ -28,13 +28,14 @@ function About() {
         <div className="card" id="education-card">
   <h3>🎓 Education</h3>
   <ul>
-    <li>
-      📍 <strong>B.Tech. in Information Technology, </strong> Symbiosis International University, Pune
-    </li>
-    <li>
+  <li>
     📍 <strong>MBA, </strong>  
    Indian Institute of Management, Raipur
     </li>
+    <li>
+      📍 <strong>B.Tech. in Information Technology, </strong> Symbiosis International University (Deemed), Pune
+    </li>
+    
   </ul>
 </div>
 
