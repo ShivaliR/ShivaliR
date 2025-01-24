@@ -8,6 +8,27 @@ function Portfolio() {
         My Work Showcase ✨
       </h2>
 
+      {/* Product Portfolio Section */}
+      <div id="product-portfolio" className="portfolio-category">
+        <h3 className="category-heading">Product Portfolio</h3>
+        <div className="product-list">
+          {/* Product 1 */}
+          <div className="product-card">
+            <img
+              src="/images/hinge.png"
+              alt="Hinge"
+              className="product-image"
+            />
+            <h4 className="product-title">Product 1: Hinge</h4>
+            <p className="product-description">
+Understanding product mindset            </p>
+<a href="https://www.product1.com/sample.pdf" target="_blank" rel="noopener noreferrer" className="product-link" download>
+  Download PDF
+</a>          
+          </div>
+          {/* Add more product cards as needed */}
+        </div>
+      </div>
       {/* Web Development Projects Section */}
       <div id="web-projects" className="portfolio-category">
         <h3 className="category-heading">Web Development Projects</h3>
@@ -51,27 +72,6 @@ function Portfolio() {
         </div>
       </div>
 
-      {/* Product Portfolio Section */}
-      <div id="product-portfolio" className="portfolio-category">
-        <h3 className="category-heading">Product Portfolio</h3>
-        <div className="product-list">
-          {/* Product 1 */}
-          <div className="product-card">
-            <img
-              src="/images/hinge.png"
-              alt="Hinge"
-              className="product-image"
-            />
-            <h4 className="product-title">Product 1: Hinge</h4>
-            <p className="product-description">
-Understanding product mindset            </p>
-<a href="https://www.product1.com/sample.pdf" target="_blank" rel="noopener noreferrer" className="product-link" download>
-  Download PDF
-</a>          
-          </div>
-          {/* Add more product cards as needed */}
-        </div>
-      </div>
     </section>
   );
 }

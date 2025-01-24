@@ -33,7 +33,7 @@ function About() {
    Indian Institute of Management, Raipur
     </li>
     <li>
-      📍 <strong>B.Tech. in Information Technology, </strong> Symbiosis International University (Deemed), Pune
+      📍 <strong>B.Tech. in Information Technology, </strong> Symbiosis International University, Pune
     </li>
     
   </ul>
