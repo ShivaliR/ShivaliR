@@ -106,8 +106,9 @@ footer a:hover {
   background-color: #f9f9f9; /* Light background color */
   color: #F5F5F5;
 }
-
-
+.product-description{
+  color: #333333;
+}
 
 ul {
   list-style-type: none;

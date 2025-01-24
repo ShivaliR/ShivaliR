@@ -2,62 +2,81 @@
     padding: 20px;
     background-color: #f9f9f9;
   }
-  .portfolio-heading{
+  
+  .portfolio-heading {
     text-align: center;
     font-size: 2.5em;
     margin-bottom: 20px;
     color: #8B6ED1;
   }
-  .category-heading{
+  
+  .category-heading {
     text-align: center;
     font-size: 2em;
     margin-bottom: 20px;
     color: #E8478A;
   }
+  
   .portfolio-category {
     margin-bottom: 40px;
   }
   
-  .projects-list, .product-list {
+  .projects-list,
+  .product-list {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
   }
   
-  .project-card, .product-card {
+  .project-card,
+  .product-card {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
     width: 300px;
     padding: 15px;
     text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
   }
   
-  .project-image, .product-image {
+  .project-card:hover,
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-image,
+  .product-image {
     width: 100%;
     height: auto;
     border-radius: 8px;
   }
   
-  .project-title, .product-title {
+  .project-title,
+  .product-title {
     font-size: 1.2em;
     margin-top: 10px;
+    color: #8B6ED1;
   }
   
-  .project-description, .product-description {
+  .project-description,
+  .product-description {
     font-size: 1em;
     margin: 10px 0;
   }
   
-  .project-link, .product-link {
+  .project-link,
+  .product-link {
     display: inline-block;
     margin-top: 10px;
     color: #007bff;
     text-decoration: none;
+    font-weight: bold;
   }
   
-  .project-link:hover, .product-link:hover {
+  .project-link:hover,
+  .product-link:hover {
     text-decoration: underline;
   }
   

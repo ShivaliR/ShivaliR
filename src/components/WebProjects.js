@@ -12,21 +12,42 @@ function Portfolio() {
       <div id="web-projects" className="portfolio-category">
         <h3 className="category-heading">Web Development Projects</h3>
         <div className="projects-list">
+          {/* Project 1 */}
           <div className="project-card">
             <img
-              src="/images/project1-thumbnail.jpg"
+              src="/images/client-1.jpg" 
               alt="Project 1"
               className="project-image"
             />
-            <h4 className="project-title">Project 1: E-Commerce Website</h4>
-            <p className="project-description">
-              Developed a fully functional e-commerce platform using React and Node.js, featuring secure payment integration and user authentication.
-            </p>
-            <a href="https://github.com/yourusername/project1" target="_blank" rel="noopener noreferrer" className="project-link">
-              View on GitHub
-            </a>
+            <h4 className="project-title">Project 1</h4>
           </div>
-          {/* Repeat similar blocks for other projects */}
+          {/* Project 2 */}
+          <div className="project-card">
+            <img
+              src="/images/image.png" 
+              alt="Project 2"
+              className="project-image"
+            />
+            <h4 className="project-title">Project 2</h4>
+          </div>
+           {/* Project 3 */}
+           <div className="project-card">
+            <img
+              src="/images/client-3.jpg" 
+              alt="Project 3"
+              className="project-image"
+            />
+            <h4 className="project-title">Project 3</h4>
+          </div>
+           {/* Project 4 */}
+           <div className="project-card">
+            <img
+              src="/images/client-4.jpg" 
+              alt="Project 4"
+              className="project-image"
+            />
+            <h4 className="project-title">Project 4</h4>
+          </div>
         </div>
       </div>
 
@@ -34,21 +55,21 @@ function Portfolio() {
       <div id="product-portfolio" className="portfolio-category">
         <h3 className="category-heading">Product Portfolio</h3>
         <div className="product-list">
+          {/* Product 1 */}
           <div className="product-card">
             <img
-              src="/images/product1-thumbnail.jpg"
-              alt="Product 1"
+              src="/images/hinge.png"
+              alt="Hinge"
               className="product-image"
             />
-            <h4 className="product-title">Product 1: Mobile App</h4>
+            <h4 className="product-title">Product 1: Hinge</h4>
             <p className="product-description">
-              Designed and developed a mobile application for iOS and Android platforms, enhancing user engagement and retention.
-            </p>
-            <a href="https://www.product1.com" target="_blank" rel="noopener noreferrer" className="product-link">
-              Visit Product
-            </a>
+Understanding product mindset            </p>
+<a href="https://www.product1.com/sample.pdf" target="_blank" rel="noopener noreferrer" className="product-link" download>
+  Download PDF
+</a>          
           </div>
-          {/* Repeat similar blocks for other products */}
+          {/* Add more product cards as needed */}
         </div>
       </div>
     </section>
