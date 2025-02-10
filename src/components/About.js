@@ -4,9 +4,9 @@ import "./About.css";
 function About() {
   return (
     <section id="about-section" className="about-section">
-      <h2 id="about-heading" className="about-heading">
+      <h1 id="about-heading" className="about-heading">
         About Me ✨
-      </h2>
+      </h1>
 
       <div id="profile-container" className="profile-container">
         <div id="profile-card" className="profile-card">
