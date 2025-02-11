@@ -102,7 +102,7 @@ function About() {
       <div className="resume-section" id="resume-section">
         <a
           id="resume-link"
-          href="/files/ShivaliRanka_Resume.pdf"
+          href="/files/professional-resume.pdf"
           className="resume-link"
           target="_blank"
           rel="noopener noreferrer"
