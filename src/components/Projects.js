@@ -8,41 +8,31 @@ function Portfolio() {
         My Work Showcase ✨
       </h2>
 
-      {/* Product Portfolio Section */}
-      <div id="product-portfolio" className="portfolio-category">
+     {/* Product Portfolio Section */}
+     <div id="product-portfolio" className="portfolio-category">
         <h3 className="category-heading">Product Portfolio</h3>
-        <div className="product-list">
+        <ul className="portfolio-list">
           {/* Product 1 */}
-          <div className="product-card">
-            <img
-              src="/images/hinge.png"
-              alt="Hinge"
-              className="product-image"
-            />
-            <h4 className="product-title">Product understanding: Hinge, an online dating application</h4>
-      
-<a href="https://drive.google.com/file/d/18wSY3Y8rhEIsPSP4rhGnzG_Q18TuqKcf/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="product-link" download>
-  Download PDF
-</a>          
-          </div>
-          {/* Product 2 */}
-          <div className="product-card">
-            <img
-              src="/images/local-delivery.jpg"
-              alt="Local Delivery"
-              className="product-image"
-            />
-            <h4 className="product-title">Product Discovery: Local parcel delivery app</h4>
-           
-<a href="https://drive.google.com/file/d/1tPU9kntrG3HnP4Egc_juiPwandNkAIGy/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="product-link" download>
-  Download PDF
-</a>          
-          </div>
-          {/* Add more product cards as needed */}
-        </div>
+          <li className="portfolio-item">
+            <span className="portfolio-title">Product Understanding: Hinge, an Online Dating Application</span>
+            <span className="portfolio-date">01st February '25</span>
+            <a href="https://drive.google.com/file/d/18wSY3Y8rhEIsPSP4rhGnzG_Q18TuqKcf/view?usp=drive_link" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               className="portfolio-link">Download PDF</a>
+          </li>
+          <li className="portfolio-item">
+            <span className="portfolio-title">Product Discovery: Local Parcel Delivery App</span>
+            <span className="portfolio-date">11th February '25</span>
+            <a href="https://drive.google.com/file/d/1tPU9kntrG3HnP4Egc_juiPwandNkAIGy/view?usp=sharing" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               className="portfolio-link">Download PDF</a>
+          </li>
+        </ul>
       </div>
       {/* Web Development Projects Section */}
-      {/* <div id="web-projects" className="portfolio-category">
+      <div id="web-projects" className="portfolio-category">
         <h3 className="category-heading">Web Development Projects</h3>
         <div className="projects-list">
           <div className="project-card">
@@ -78,7 +68,7 @@ function Portfolio() {
             <h4 className="project-title">Project 4</h4>
           </div>
         </div>
-      </div> */}
+      </div>
 
     </section>
   );

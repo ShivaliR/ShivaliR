@@ -1,5 +1,5 @@
 .portfolio-section {
-    padding: 20px;
+  padding: 40px 20px;
     background-color: #f9f9f9;
   }
   
@@ -20,7 +20,7 @@
   .portfolio-category {
     margin-bottom: 40px;
   }
-  
+ 
   .projects-list,
   .product-list {
     display: flex;
@@ -60,6 +60,7 @@
   }
   .project-title,
   .product-title {
+    font-size: 1.2em;
     margin-top: 10px;
     color: #000000;
   }
@@ -83,4 +84,36 @@
   .product-link:hover {
     text-decoration: underline;
   }
-  
+  .portfolio-list {
+    list-style: none;
+    padding: 0;
+  }
+  .portfolio-item {
+    display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  align-items: center;
+  border-bottom: 1px dotted #aaa;
+  padding: 20px 10px;
+  }
+  .portfolio-item > *{
+    align-items:flex-start;
+  }
+  .portfolio-title,
+  .portfolio-date{
+    color: #000000;
+  }
+  li.portfolio-link {
+    text-align: right;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  li.portfolio-item{
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+  li.portfolio-item:hover .portfolio-title,
+  li.portfolio-item:hover a.portfolio-link{
+    text-decoration: underline;
+  }
