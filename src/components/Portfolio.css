@@ -46,18 +46,22 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  .project-image,
-  .product-image {
-    width: 100%;
-    height: auto;
+  .project-image{
+    width: auto;
+    max-width: 100%;
     border-radius: 8px;
   }
-  
+  div#product-portfolio .product-image {
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    border-radius: 8px;
+  }
   .project-title,
   .product-title {
-    font-size: 1.2em;
     margin-top: 10px;
-    color: #8B6ED1;
+    color: #000000;
   }
   
   .project-description,

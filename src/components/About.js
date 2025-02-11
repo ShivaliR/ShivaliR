@@ -48,7 +48,7 @@ function About() {
             React, WordPress, PHP, ACF, Node.js, and CSS. 💻
           </p>
           <p>
-          📍 Exploring product portfolios and studying real-world cases to merge
+          📍 Building product mindset by exploring and studying real-world cases to merge
             technical expertise with a product-oriented approach. 📈
           </p>
         </div>

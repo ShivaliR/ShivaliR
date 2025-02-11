@@ -19,10 +19,22 @@ function Portfolio() {
               alt="Hinge"
               className="product-image"
             />
-            <h4 className="product-title">Product 1: Hinge</h4>
-            <p className="product-description">
-Understanding product mindset            </p>
-<a href="https://www.product1.com/sample.pdf" target="_blank" rel="noopener noreferrer" className="product-link" download>
+            <h4 className="product-title">Product understanding: Hinge, an online dating application</h4>
+      
+<a href="https://drive.google.com/file/d/18wSY3Y8rhEIsPSP4rhGnzG_Q18TuqKcf/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="product-link" download>
+  Download PDF
+</a>          
+          </div>
+          {/* Product 2 */}
+          <div className="product-card">
+            <img
+              src="/images/local-delivery.jpg"
+              alt="Local Delivery"
+              className="product-image"
+            />
+            <h4 className="product-title">Product Discovery: Local parcel delivery app</h4>
+           
+<a href="https://drive.google.com/file/d/1tPU9kntrG3HnP4Egc_juiPwandNkAIGy/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="product-link" download>
   Download PDF
 </a>          
           </div>
