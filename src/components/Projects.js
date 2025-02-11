@@ -42,10 +42,9 @@ function Portfolio() {
         </div>
       </div>
       {/* Web Development Projects Section */}
-      <div id="web-projects" className="portfolio-category">
+      {/* <div id="web-projects" className="portfolio-category">
         <h3 className="category-heading">Web Development Projects</h3>
         <div className="projects-list">
-          {/* Project 1 */}
           <div className="project-card">
             <img
               src="/images/client-1.jpg" 
@@ -54,7 +53,6 @@ function Portfolio() {
             />
             <h4 className="project-title">Project 1</h4>
           </div>
-          {/* Project 2 */}
           <div className="project-card">
             <img
               src="/images/image.png" 
@@ -63,7 +61,6 @@ function Portfolio() {
             />
             <h4 className="project-title">Project 2</h4>
           </div>
-           {/* Project 3 */}
            <div className="project-card">
             <img
               src="/images/client-3.jpg" 
@@ -72,7 +69,6 @@ function Portfolio() {
             />
             <h4 className="project-title">Project 3</h4>
           </div>
-           {/* Project 4 */}
            <div className="project-card">
             <img
               src="/images/client-4.jpg" 
@@ -82,7 +78,7 @@ function Portfolio() {
             <h4 className="project-title">Project 4</h4>
           </div>
         </div>
-      </div>
+      </div> */}
 
     </section>
   );
