@@ -3,7 +3,6 @@
   padding: 3rem 2rem;
   background: linear-gradient(135deg, #8B6ED1, #E8478A);
   color: #F5F5F5;
-  font-family: 'Roboto', sans-serif;
   animation: fadeIn 1s ease-in-out;
   width: 100%;
 }
@@ -99,13 +98,13 @@
   align-items: center;
 }
 
-.memories-section h3 {
+.memories-section h3,
+.recommendations-section h3 {
   font-size: 2.5rem;
   color: #FFF;
   margin-bottom: 2rem;
   text-transform: uppercase;
 }
-
 .memory-gallery {
   display: flex;
   justify-content: center;
@@ -172,6 +171,58 @@
   color: #8B6ED1;
   margin-bottom: 2rem;
   text-transform: uppercase;
+}
+/* Recommendations Section Styling */
+.recommendations-section {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.recommendations-section h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.recommendations-section p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.recommendations-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+}
+
+.recommendation-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
+
+.recommendation-image:nth-child(odd) {
+  transform: rotate(-2deg);
+}
+
+.recommendation-image:nth-child(even) {
+  transform: rotate(3deg);
+}
+
+.recommendation-image:hover {
+  z-index: 999;
+  transform: scale(1.5) rotate(0deg);
 }
 /* Animations */
 @keyframes fadeIn {

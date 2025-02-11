@@ -110,6 +110,29 @@ function About() {
           <button className="resume-button">📄 View Full Resume</button>
         </a>
       </div>
+      <div className="recommendations-section">
+        <h3>Kudos</h3>
+        <div className="recommendations-gallery">
+          <img src="/images/recommendation-3.png" alt="Recommendation 1" className="recommendation-image" />
+          <img src="/images/recommendation-5.png" alt="Recommendation 2" className="recommendation-image" />
+          <img src="/images/recommendation-2.png" alt="Recommendation 3" className="recommendation-image" />
+          <img src="/images/recommendation-4.png" alt="Recommendation 4" className="recommendation-image" />
+          <img src="/images/recommendation-1.png" alt="Recommendation 5" className="recommendation-image" />
+          <img src="/images/recommendation-6.png" alt="Recommendation 6" className="recommendation-image" />
+        </div>
+      </div>
+
+      <div className="resume-section" id="resume-section">
+        <a
+          id="resume-link"
+          href="/files/professional-resume.pdf"
+          className="resume-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="resume-button">📄 View Full Resume</button>
+        </a>
+      </div>
       <div className="contact-section card">
   <h3>Let's work together? 🤝</h3>
   <form className="contact-form">
