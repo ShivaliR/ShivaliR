@@ -4,7 +4,7 @@
   background: linear-gradient(135deg, #8B6ED1, #E8478A);
   color: #F5F5F5;
   animation: fadeIn 1s ease-in-out;
-  width: 100%;
+  width: auto;
 }
 
 .about-heading {

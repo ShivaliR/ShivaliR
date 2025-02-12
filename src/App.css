@@ -55,7 +55,7 @@ body .website{
   color: #FFFFFF;
   position: relative;
   bottom: 0;
-  width: 100%;
+  width: auto;
 }
 
 .footer p {
