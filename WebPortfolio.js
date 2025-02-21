@@ -5,12 +5,11 @@ function WebPortfolio() {
   return (
     <section id="portfolio-section" className="portfolio-section">
       <h2 id="portfolio-heading" className="portfolio-heading">
-        My Work Showcase ✨
+      Web Development Projects
       </h2>
 
       {/* Web Development Projects Section */}
       <div id="web-projects" className="portfolio-category">
-        <h3 className="category-heading">Web Development Projects</h3>
         <div className="projects-list">
           <div className="project-card">
             <img

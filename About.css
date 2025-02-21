@@ -30,6 +30,7 @@
 }
 
 .profile-card {
+  cursor: pointer;
   background: rgba(20, 10, 40, 0.9);
   color: #FFFFFF;
   padding: 2rem;
@@ -42,6 +43,7 @@
 .profile-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 8px 20px rgba(138, 43, 226, 0.3);
+  cursor: pointer;
 }
 
 .profile-image {
@@ -55,7 +57,10 @@
 .profile-name {
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  color: #8A2BE2;
+  color: #FFF;
+}
+.profile-name .highlight-pink-text {
+  color: #E8478A;
 }
 
 .profile-description {
@@ -71,6 +76,7 @@
   box-shadow: 0 6px 15px rgba(138, 43, 226, 0.3);
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
 }
 
 .card:hover {
@@ -80,7 +86,7 @@
 
 .card h3 {
   font-size: 1.5rem;
-  color: #8A2BE2;
+  color: #FFF;
   margin-bottom: 1rem;
 }
 
@@ -198,8 +204,7 @@
   overflow: hidden;
 }
 
-.recommendations-section h3,
-.contact-section h3 {
+.recommendations-section h3{
   font-size: 3rem;
   color: #FFF;
   margin-bottom: 3rem;
@@ -207,8 +212,7 @@
 }
 
 .recommendations-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -246,25 +250,31 @@
   transform: scale(1.08);
 }
 
-.recommendations-gallery::before {
-  content: "";
-  position: absolute;
-  width: 120%;
-  height: 120%;
-  top: -10%;
-  left: -10%;
-  background: radial-gradient(circle, rgba(138, 43, 226, 0.3), transparent);
-  z-index: 0;
-}
-img.recommendation-image:hover {
-  transform: scale(1.5);
-  transition: all 0.5s ease-in-out;
-}
+
 img.recommendation-image {
-  width: 250px;
-  height: auto;
-  max-width: 100%;
   object-fit: contain;
   transition: all 0.5s ease-in-out;
   border-radius: 5px;
+  flex: 1;
+  width: 300px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+img.rotateMinus10{
+  transform: translateY(140px) rotate(-10deg);
+}
+img.recommendation-image.enlarged{
+  transform: scale(1.3);
+  z-index: 999;
+}
+img.recommendation-image:hover {
+  transform: scale(1.5) !important;
+  z-index: 999 !important;
+  transition: all 0.5s ease-in-out;
+}
+img.recommendation-image.recomm-one{
+  transform: translateY(100px) rotate(10deg);
+}
+img.recommendation-image.recomm-one:hover{
+  transform: scale(1.5) translateY(100px) rotate(10deg) !important;
 }
