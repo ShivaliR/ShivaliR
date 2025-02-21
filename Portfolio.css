@@ -1,0 +1,124 @@
+.portfolio-section {
+  padding: 40px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .portfolio-heading {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #8B6ED1;
+  }
+  
+  .category-heading {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #E8478A;
+  }
+  
+  .portfolio-category {
+    margin-bottom: 40px;
+  }
+ 
+  .projects-list,
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .project-card,
+  .product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .project-card:hover,
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-image{
+    width: auto;
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  div#product-portfolio .product-image {
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  .project-title,
+  .product-title {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #000000;
+  }
+  
+  .project-description,
+  .product-description {
+    font-size: 1em;
+    margin: 10px 0;
+  }
+  
+  .project-link,
+  .product-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .project-link:hover,
+  .product-link:hover {
+    text-decoration: underline;
+  }
+  .portfolio-list {
+    list-style: none;
+    padding: 0;
+  }
+  .portfolio-item {
+    display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  align-items: center;
+  border-bottom: 1px dotted #aaa;
+  padding: 20px 10px;
+  }
+  .portfolio-item > *{
+    align-items:flex-start;
+  }
+  .portfolio-title,
+  .portfolio-date{
+    color: #000000;
+  }
+  li.portfolio-link {
+    text-align: right;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  li.portfolio-item{
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+  li.portfolio-item:hover .portfolio-title,
+  li.portfolio-item:hover a.portfolio-link{
+    text-decoration: underline;
+  }
+  @media screen and (max-width:767px) {
+    .portfolio-item{
+      grid-template-columns: 1fr;
+    }
+  }

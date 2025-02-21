@@ -1,0 +1,270 @@
+/* General Styles */
+.about-section {
+  padding: 3rem 2rem;
+  background: radial-gradient(circle at 30% 50%, rgba(30, 10, 50, 0.9), #000000);
+  box-shadow: 0 0 80px rgba(138, 43, 226, 0.4);
+  color: #F5F5F5;
+  animation: fadeIn 1s ease-in-out;
+  width: auto;
+}
+
+.about-heading {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+  margin-top: 0;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Profile Card Styles */
+.profile-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+
+.profile-card {
+  background: rgba(20, 10, 40, 0.9);
+  color: #FFFFFF;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(138, 43, 226, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(138, 43, 226, 0.3);
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 0;
+}
+
+.profile-name {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #8A2BE2;
+}
+
+.profile-description {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Card Styles (Education, Expertise, Memories, Kudos) */
+.card {
+  background: rgba(20, 10, 40, 0.95);
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(138, 43, 226, 0.3);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(138, 43, 226, 0.4);
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  color: #8A2BE2;
+  margin-bottom: 1rem;
+}
+
+.card p,
+.card li {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #E5E5E5;
+}
+
+/* Memories Section */
+.memories-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.memories-section h3,
+.recommendations-section h3 {
+  font-size: 2.5rem;
+  color: #FFF;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.memory-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  max-width: 100%;
+}
+
+.memory-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(138, 43, 226, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.memory-image:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 6px 12px rgba(138, 43, 226, 0.4);
+}
+
+/* Contact Form */
+.contact-section {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.contact-form input, 
+.contact-form textarea {
+  background: rgba(30, 15, 60, 0.85);
+  border: 1px solid rgba(138, 43, 226, 0.4);
+  color: #FFFFFF;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.contact-form button {
+  background: linear-gradient(135deg, #6A0DAD, #4B0082);
+  color: #FFFFFF;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: linear-gradient(135deg, #8A2BE2, #6A0DAD);
+  box-shadow: 0px 0px 15px rgba(138, 43, 226, 0.6);
+}
+
+/* Resume Button */
+.resume-section {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.resume-button {
+  background: linear-gradient(135deg, #6A0DAD, #4B0082);
+  color: #FFFFFF;
+  border: none;
+  padding: 16px 24px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.resume-button:hover {
+  background: linear-gradient(135deg, #8A2BE2, #6A0DAD);
+  box-shadow: 0px 0px 15px rgba(138, 43, 226, 0.6);
+  transform: translateY(-5px);
+}
+
+/* Kudos Section */
+.recommendations-section {
+  border-radius: 12px;
+  text-align: center;
+  max-width: 100%;
+  margin: 5rem auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.recommendations-section h3,
+.contact-section h3 {
+  font-size: 3rem;
+  color: #FFF;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+
+.recommendations-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.recommendation-card {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(138, 43, 226, 0.5);
+  transition: transform 0.4s ease-in-out, box-shadow 0.3s ease-in-out;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 15px;
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.recommendation-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.recommendation-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 40px rgba(138, 43, 226, 0.7);
+  z-index: 3;
+}
+
+.recommendation-card img:hover {
+  transform: scale(1.08);
+}
+
+.recommendations-gallery::before {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  top: -10%;
+  left: -10%;
+  background: radial-gradient(circle, rgba(138, 43, 226, 0.3), transparent);
+  z-index: 0;
+}
+img.recommendation-image:hover {
+  transform: scale(1.5);
+  transition: all 0.5s ease-in-out;
+}
+img.recommendation-image {
+  width: 250px;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+  transition: all 0.5s ease-in-out;
+  border-radius: 5px;
+}
