@@ -1,0 +1,89 @@
+/* ======= Web Portfolio Section Styling ======= */
+.portfolio-section {
+    background: #F8F9FA; /* Soft off-white background */
+    color: #222222;
+    padding: 60px 30px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    border-radius: 12px;
+}
+
+/* ======= Heading Styling ======= */
+.portfolio-heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: #111111;
+}
+
+/* ======= Portfolio Category Styling ======= */
+.portfolio-category {
+    margin-bottom: 40px;
+}
+
+.category-heading {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #E8478A;
+    text-transform: uppercase;
+}
+
+/* ======= Grid Layout for Web Projects ======= */
+.projects-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+
+/* ======= Web Project Card Styling ======= */
+.project-card {
+    background: white;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* ======= Project Image Styling ======= */
+.project-image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* ======= Project Title Styling ======= */
+.project-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #222222;
+    margin-top: 8px;
+}
+
+/* ======= Mobile Optimization (1 Item Per Row for Small Screens) ======= */
+@media (max-width: 768px) {
+    .projects-list {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
+    .project-image {
+        height: 150px;
+    }
+}
