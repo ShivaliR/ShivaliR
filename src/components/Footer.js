@@ -41,7 +41,7 @@ function Footer() {
           <h4>Social Links</h4>
           <div className="social-icons">
             <a
-              href="https://linkedin.com/in/shivaliranka"
+              href="https://www.linkedin.com/in/shivali-ranka/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
