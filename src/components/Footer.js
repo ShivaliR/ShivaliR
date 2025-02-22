@@ -31,14 +31,7 @@ function Footer() {
           </li>
         </ul>
           
-          <div className="footer-cta-buttons">
-            <a href="#partnership" className="footer-button">
-              B2B Partnership
-            </a>
-            <a href="#quote" className="footer-button">
-              A Free Quote
-            </a>
-          </div>
+          
         </div>
 
         {/* Right Section: Contact + Socials (like the TechMuse design) */}

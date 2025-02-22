@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-container">
 
-        {/* Left Section: Services (like in the TechMuse design) */}
+        {/* Left Section:  */}
         <div className="footer-section footer-services">
           <h3>Services</h3>
           <ul>
@@ -34,7 +34,6 @@ function Footer() {
       
         </div>
 
-        {/* Right Section: Contact + Socials (like the TechMuse design) */}
         <div className="footer-section footer-contact">
          
 
