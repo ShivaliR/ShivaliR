@@ -1,12 +1,10 @@
 /* ======= Web Portfolio Section Styling ======= */
 .portfolio-section {
-    background: #F8F9FA; /* Soft off-white background */
+    background: #F8F9FA; 
     color: #222222;
     padding: 60px 30px;
-    max-width: 1200px;
     margin: auto;
     text-align: center;
-    border-radius: 12px;
 }
 
 /* ======= Heading Styling ======= */
