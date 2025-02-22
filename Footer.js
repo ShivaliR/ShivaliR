@@ -30,16 +30,9 @@ function Footer() {
             <a href="tel:+919826255034">+91-9826255034</a>
           </li>
         </ul>
-{/*           
-          <div className="footer-cta-buttons">
-            <a href="#partnership" className="footer-button">
-              B2B Partnership
-            </a>
-            <a href="#quote" className="footer-button">
-              A Free Quote
-            </a>
-          </div>
-        </div> */}
+          
+      
+        </div>
 
         {/* Right Section: Contact + Socials (like the TechMuse design) */}
         <div className="footer-section footer-contact">
@@ -48,7 +41,7 @@ function Footer() {
           <h4>Social Links</h4>
           <div className="social-icons">
             <a
-              href="https://www.linkedin.com/in/shivali-ranka/"
+              href="https://linkedin.com/in/shivaliranka"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
