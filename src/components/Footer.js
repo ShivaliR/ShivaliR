@@ -11,9 +11,10 @@ function Footer() {
           <h3>Services</h3>
           <ul>
           <li>WordPress Development</li>
-<li>React Development</li>
-<li>Shopify & E-Commerce Websites</li>
-<li>AI Integrations</li>
+          <li>React Development</li>
+          <li>Shopify & E-Commerce Websites</li>
+          <li>Plugin Development</li>
+          <li>AI Integrations</li>
           </ul>
         </div>
 
