@@ -34,7 +34,7 @@ function Portfolio() {
               alt="Fixing LinkedIn’s Content Quality Issues: A Case Study on User Retention & Engagement" 
               className="portfolio-thumbnail"
             />
-            <span className="portfolio-title">Fixing LinkedIn’s Content Quality Issues: A Case Study on User Retention & Engagement</span>
+            <span className="portfolio-title">Product Improvement: Fixing LinkedIn’s Content Quality Issues - User Retention & Engagement</span>
             <span className="portfolio-date">06th March '25</span>
             <a href="https://docs.google.com/presentation/d/1cV3ezgsovXC_DBqJIgGKVLKlOkejWLlAIvTAUyom9g0/edit?usp=sharing" 
                target="_blank" 
