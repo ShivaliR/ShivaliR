@@ -9,7 +9,7 @@ function Portfolio() {
       </h2>
 
       {/* Currently Working On Section */}
-      <div id="currently-working-on" className="portfolio-category">
+      {/* <div id="currently-working-on" className="portfolio-category">
         <h3 className="portfolio-subheading">Currently Working On</h3>
         <ul className="portfolio-list">
           <li className="portfolio-item">
@@ -23,11 +23,25 @@ function Portfolio() {
             <a href="#" className="portfolio-link">Coming Soon</a>
           </li>
         </ul>
-      </div>
+      </div> */}
 
       {/* Product Portfolio Section */}
       <div id="product-portfolio" className="portfolio-category">
         <ul className="portfolio-list">
+        <li className="portfolio-item">
+            <img 
+              src="/images/linkedcontent.png" 
+              alt="Fixing LinkedIn’s Content Quality Issues: A Case Study on User Retention & Engagement" 
+              className="portfolio-thumbnail"
+            />
+            <span className="portfolio-title">Fixing LinkedIn’s Content Quality Issues: A Case Study on User Retention & Engagement</span>
+            <span className="portfolio-date">06th March '25</span>
+            <a href="https://docs.google.com/presentation/d/1cV3ezgsovXC_DBqJIgGKVLKlOkejWLlAIvTAUyom9g0/edit?usp=sharing" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               className="portfolio-link">Download PDF</a>
+          </li>
+
           {/* Product 1 */}
           <li className="portfolio-item">
             <img 
