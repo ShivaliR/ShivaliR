@@ -30,7 +30,7 @@ function Portfolio() {
         <ul className="portfolio-list">
         <li className="portfolio-item">
             <img 
-              src="/images/linkedcontent.png" 
+              src="/images/linkedin-logo.png" 
               alt="Fixing LinkedIn’s Content Quality Issues: A Case Study on User Retention & Engagement" 
               className="portfolio-thumbnail"
             />
@@ -45,7 +45,7 @@ function Portfolio() {
           {/* Product 1 */}
           <li className="portfolio-item">
             <img 
-              src="/images/hinge.png" 
+              src="/images/hinge-logo.png" 
               alt="Hinge Product Research" 
               className="portfolio-thumbnail"
             />
@@ -75,7 +75,7 @@ function Portfolio() {
           {/* Product 3 */}
           <li className="portfolio-item">
             <img 
-              src="/images/linkedin-messaging.png" 
+              src="/images/linkedin-logo.png" 
               alt="LinkedIn Auto Suggestion Research" 
               className="portfolio-thumbnail"
             />
