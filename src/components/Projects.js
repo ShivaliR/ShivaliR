@@ -8,22 +8,22 @@ function Portfolio() {
         Product Portfolio
       </h2>
 
-      {/* Currently Working On Section */}
-      {/* <div id="currently-working-on" className="portfolio-category">
+      /* Currently Working On Section */
+      <div id="currently-working-on" className="portfolio-category">
         <h3 className="portfolio-subheading">Currently Working On</h3>
         <ul className="portfolio-list">
           <li className="portfolio-item">
             <img 
-              src="/images/linkedin-content-quality-issue.png" 
+              src="/images/amazon-logo.png" 
               alt="LinkedIn Content Quality Issues" 
               className="portfolio-thumbnail"
             />
-            <span className="portfolio-title">LinkedIn Content Quality Issues - User Retention & Churn Rate</span>
+            <span className="portfolio-title">Amazon’s Product Returns – Reducing Unnecessary Returns</span>
             <span className="portfolio-date">Ongoing</span>
             <a href="#" className="portfolio-link">Coming Soon</a>
           </li>
         </ul>
-      </div> */}
+      </div> 
 
       {/* Product Portfolio Section */}
       <div id="product-portfolio" className="portfolio-category">
