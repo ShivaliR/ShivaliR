@@ -1,103 +1,131 @@
-/* ======= Portfolio Section Styling ======= */
+/* ======= General Styling ======= */
 .portfolio-section {
-    background: #F4F4F4; 
-    color: #222222;
+    background: #FFFFFF;
+    color: #111;
     padding: 60px 30px;
+    max-width: 800px;
     margin: auto;
-    text-align: center;
 }
 
-/* ======= Heading Styling ======= */
+/* ======= Portfolio Heading (Big & Bold) ======= */
 .portfolio-heading {
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 30px;
-    text-transform: uppercase;
-    letter-spacing: 0.8px;
-    color: #111111;
-}
-
-/* ======= Portfolio Grid (3 Items Per Row) ======= */
-.portfolio-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* 3 items per row */
-    gap: 20px;
-    list-style: none;
-    padding: 0;
-    justify-content: center;
-}
-
-/* ======= Portfolio Card (Compact & Aligned) ======= */
-.portfolio-item {
-    background: white;
-    border-radius: 10px;
-    padding: 16px;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.portfolio-item:hover {
-    transform: translateY(-2px);
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
-}
-
-/* ======= Thumbnail Image ======= */
-.portfolio-thumbnail {
-    width: 100%;
-    height: 200px;
-    object-fit: contain;
-    margin-bottom: 12px;
-    object-position: top;
-    border-radius: 10px;
-}
-
-/* ======= Portfolio Content ======= */
-.portfolio-content {
-    flex: 1;
+    font-size: 3rem !important;
+    font-weight: 900;
+    margin-bottom: 40px;
     text-align: center;
 }
+.product-hashtags{
+    font-size: 1rem;
+    color: #111;
+    text-transform: lowercase;
+    font-style: italic;
+    margin: 0 40px;
+    font-weight: 400;
+}
+/* ======= Category Styling ======= */
+.portfolio-category {
+    margin-bottom: 40px;
+}
 
-/* ======= Title Styling ======= */
+/* ======= Subheading Styling ======= */
+.portfolio-subheading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* ======= List Styling ======= */
+.portfolio-list {
+    list-style: none;
+    padding: 40px;
+}
+
+/* ======= Portfolio Item Styling ======= */
+.portfolio-item {
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    font-size: 1.2rem;
+}
+.portfolio-item:hover .portfolio-title{
+    background-color: #fff495;;
+}
+/* ======= First Item Highlight (Yellow Background) ======= */
+.portfolio-item.highlighted {
+    background: #FFF3B0; /* Light yellow highlight */
+    padding: 8px 10px;
+    border-radius: 4px;
+}
+
+/* ======= Portfolio Title (Left-Aligned with Dotted Line) ======= */
 .portfolio-title {
-    font-size: 16px;
-    font-weight: 600;
-    color: #222222;
-    margin-bottom: 8px;
+    font-size: 1.2rem;
+    flex: 1;
+    text-align: left;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    color: #111;
+}
+
+/* ======= Dotted Separator Between Title & Date ======= */
+.portfolio-title::after {
+    content: "";
+    flex-grow: 1;
+    border-bottom:  4px dotted #d5d5d5;
+    margin: 0 10px;
 }
 
 /* ======= Date Styling ======= */
 .portfolio-date {
-    font-size: 12px;
-    color: #666666;
-    margin-bottom: 12px;
+    font-size: 18px;
+    color: #666;
+    white-space: nowrap;
 }
 
-/* ======= Button Styling (Compact & Aligned) ======= */
+/* ======= Link Styling (Minimal & Subtle) ======= */
 .portfolio-link {
-    display: inline-block;
-    background: linear-gradient(45deg, #E8478A, #8B6ED1);
-    color: white;
-    padding: 6px 14px;
-    border-radius: 6px;
-    font-weight: 500;
+    font-size: 18px;
+    color: #E8478A;
     text-decoration: none;
-    font-size: 13px;
-    transition: background 0.2s ease-in-out, transform 0.15s ease-in-out;
+    font-weight: 600;
+    margin-left: 10px;
 }
 
 .portfolio-link:hover {
-    background: linear-gradient(45deg, #8B6ED1, #E8478A);
-    transform: scale(1.03);
-    box-shadow: 0px 2px 8px rgba(232, 71, 138, 0.2);
+    color: #8B6ED1;
 }
 
-/* ======= Mobile Optimization (1 Item Per Row for Small Screens) ======= */
+/* ======= Mobile Optimization ======= */
 @media (max-width: 768px) {
-    .portfolio-list {
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    .portfolio-section {
+        padding: 30px 15px;
+    }
+    .portfolio-heading {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+    }
+    .portfolio-subheading {
+        font-size: 1.3rem;
+        margin-bottom: 15px;
+    }
+    .portfolio-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+        padding: 12px 0;
+        border-bottom: 1px dotted #aaa;
+    }
+    .portfolio-title {
+        font-size: 1.1rem;
+    }
+    .portfolio-title::after {
+        display: none;
+    }
+    .portfolio-date {
+        font-size: 0.9rem;
     }
 }

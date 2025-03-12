@@ -1,9 +1,9 @@
 import React from 'react';
-import './Portfolio.css';
+import './Webportfolio.css';
 
 function WebPortfolio() {
   return (
-    <section id="portfolio-section" className="portfolio-section">
+    <section id="web-portfolio-section" className="web-portfolio-section-class">
       <h2 id="portfolio-heading" className="portfolio-heading">
       Web Development Projects
       </h2>
