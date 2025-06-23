@@ -90,9 +90,7 @@ function About() {
           <div className="profile-card-content">
             <h3 className="profile-name">Hi, <span className="highlight-pink-text">Shivali</span> here!</h3>
             <p className="profile-description">
-            I'm a passionate website developer with a growing interest in the
-              world of products. Currently based in Pune, but originally from
-              Meghnagar and also have lived in Indore.
+            I'm an Associate Product Manager. I'm from Meghnagar, Madhya Pradesh.
             </p>
           </div>
         </div>
@@ -175,7 +173,7 @@ function About() {
       <div className="resume-section" id="resume-section">
         <a
           id="resume-link"
-          href="/files/ShivaliRanka_Resume-Master_v_.pdf"
+          href="files/resume.pdf"
           className="resume-link"
           target="_blank"
           rel="noopener noreferrer"
