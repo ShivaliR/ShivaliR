@@ -12,7 +12,7 @@ function Portfolio() {
         <ul className="portfolio-list">
 
         <li className="portfolio-item">
-            <span className="portfolio-title">Tinder - Product Teardown
+            <span className="portfolio-title">Tinder - Product teardown </span>
             <span className="portfolio-date"><strong>ETA - 30th June '25 (WIP)</strong></span>
             {/* <a href="#"
                target="_blank"
