@@ -7,7 +7,6 @@ function WebPortfolio() {
       <h2 id="portfolio-heading" className="portfolio-heading">
       Web Development Projects
       </h2>
-
       {/* Web Development Projects Section */}
       <div id="web-projects" className="portfolio-category">
         <div className="projects-list">
@@ -21,7 +20,7 @@ function WebPortfolio() {
           </div>
           <div className="project-card">
             <img
-              src="/images/image.png" 
+              src="/images/image.png"
               alt="Project 2"
               className="project-image"
             />
