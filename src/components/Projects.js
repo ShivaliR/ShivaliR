@@ -10,7 +10,19 @@ function Portfolio() {
       {/* Product Portfolio Section */}
       <div className="portfolio-category">
         <ul className="portfolio-list">
-    <li className="portfolio-item">
+
+        <li className="portfolio-item">
+            <span className="portfolio-title">Tinder - Product Teardown
+            <span className="portfolio-date"><strong>ETA - 30th June '25 (WIP)</strong></span>
+            {/* <a href="#"
+               target="_blank"
+               rel="noopener noreferrer"
+               className="portfolio-link">
+              Download PDF
+            </a> */}
+          </li>
+
+        <li className="portfolio-item">
             <span className="portfolio-title">Product Improvement: Amazon’s Product Returns (Reducing Unnecessary Returns)</span>
             <span className="portfolio-date">11th March '25</span>
             <a href="https://drive.google.com/file/d/1PqzCw40Uq0fB0wjJQnKHnxHeaArou9FA/view?usp=drive_link"
