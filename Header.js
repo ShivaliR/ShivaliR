@@ -12,7 +12,7 @@ function Header() {
         <ul className="nav-list">
           <li><Link to="/about" className="nav-link">About Me</Link></li>
           <li><Link to="/projects" className="nav-link">Product Portfolio</Link></li>
-          <li><Link to="/webportfolio" className="nav-link">Website Portfolio</Link></li>
+          <li><Link to="/webportfolio" className="nav-link">My apps</Link></li>
         </ul>
       </nav>
     </header>
