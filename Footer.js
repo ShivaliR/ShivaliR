@@ -63,7 +63,7 @@ function Footer() {
 
       {/* Footer Bottom */}
       <div className="footer-bottom">
-        <p>&copy; 2025 Shivali Ranka. All rights reserved. | Privacy Policy</p>
+        <p>&copy; 2026 Shivali Ranka. All rights reserved. | Privacy Policy</p>
       </div>
     </footer>
   );
