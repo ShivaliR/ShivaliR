@@ -1,131 +1,128 @@
-/* ======= General Styling ======= */
-.portfolio-section {
-    background: #FFFFFF;
-    color: #111;
-    padding: 60px 30px;
-    max-width: 800px;
-    margin: auto;
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap');
+
+.portfolio {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 64px 24px 96px;
+  background: #FFFBF7;
+  color: #2C2540;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-/* ======= Portfolio Heading (Big & Bold) ======= */
-.portfolio-heading {
-    font-size: 3rem !important;
-    font-weight: 900;
-    margin-bottom: 40px;
-    text-align: center;
-}
-.product-hashtags{
-    font-size: 1rem;
-    color: #111;
-    text-transform: lowercase;
-    font-style: italic;
-    margin: 0 40px;
-    font-weight: 400;
-}
-/* ======= Category Styling ======= */
-.portfolio-category {
-    margin-bottom: 40px;
+.portfolio h1 {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 42px;
+  letter-spacing: -0.01em;
+  margin: 0 0 10px;
 }
 
-/* ======= Subheading Styling ======= */
-.portfolio-subheading {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-    text-align: left;
+.subheading {
+  color: #7A7190;
+  font-size: 15px;
+  margin: 0 0 48px;
 }
 
-/* ======= List Styling ======= */
-.portfolio-list {
-    list-style: none;
-    padding: 40px;
+.section-divider {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #9C93B0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 48px 0 20px;
+  padding-top: 24px;
+  border-top: 1px solid #ECE6F5;
 }
 
-/* ======= Portfolio Item Styling ======= */
-.portfolio-item {
-    display: flex;
-    cursor: pointer;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px 0;
-    font-size: 1.2rem;
-}
-.portfolio-item:hover .portfolio-title{
-    background-color: #fff495;;
-}
-/* ======= First Item Highlight (Yellow Background) ======= */
-.portfolio-item.highlighted {
-    background: #FFF3B0; /* Light yellow highlight */
-    padding: 8px 10px;
-    border-radius: 4px;
+/* --- App entries --- */
+
+.app-entry {
+  padding: 22px 24px;
+  margin: 0 0 16px;
+  background: #FFFFFF;
+  border: 1px solid #F0E9DD;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 }
 
-/* ======= Portfolio Title (Left-Aligned with Dotted Line) ======= */
-.portfolio-title {
-    font-size: 1.2rem;
-    flex: 1;
-    text-align: left;
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-    color: #111;
+.app-entry:hover {
+  border-color: #E8D9B0;
+  box-shadow: 0 6px 20px rgba(44, 37, 64, 0.06);
+  transform: translateY(-1px);
 }
 
-/* ======= Dotted Separator Between Title & Date ======= */
-.portfolio-title::after {
-    content: "";
-    flex-grow: 1;
-    border-bottom:  4px dotted #d5d5d5;
-    margin: 0 10px;
+.app-name-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
 }
 
-/* ======= Date Styling ======= */
-.portfolio-date {
-    font-size: 18px;
-    color: #666;
-    white-space: nowrap;
+.app-name {
+  font-family: 'Fraunces', serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #2C2540;
+  text-decoration: none;
+  transition: color 0.2s ease;
 }
 
-/* ======= Link Styling (Minimal & Subtle) ======= */
-.portfolio-link {
-    font-size: 18px;
-    color: #E8478A;
-    text-decoration: none;
-    font-weight: 600;
-    margin-left: 10px;
+a.app-name {
+  color: #2C2540;
 }
 
-.portfolio-link:hover {
-    color: #8B6ED1;
+a.app-name:hover {
+  color: #A9720C;
 }
 
-/* ======= Mobile Optimization ======= */
-@media (max-width: 768px) {
-    .portfolio-section {
-        padding: 30px 15px;
-    }
-    .portfolio-heading {
-        font-size: 2.5rem;
-        margin-bottom: 30px;
-    }
-    .portfolio-subheading {
-        font-size: 1.3rem;
-        margin-bottom: 15px;
-    }
-    .portfolio-item {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 4px;
-        padding: 12px 0;
-        border-bottom: 1px dotted #aaa;
-    }
-    .portfolio-title {
-        font-size: 1.1rem;
-    }
-    .portfolio-title::after {
-        display: none;
-    }
-    .portfolio-date {
-        font-size: 0.9rem;
-    }
+.app-period {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: #9C7A2E;
+  background: #FBF1DC;
+  padding: 4px 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+  letter-spacing: 0.01em;
+}
+
+.app-entry ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.app-entry li {
+  position: relative;
+  padding-left: 18px;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: #4A425F;
+  margin-bottom: 8px;
+}
+
+.app-entry li:last-child {
+  margin-bottom: 0;
+}
+
+.app-entry li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #D9CDE6;
+}
+
+/* Highlight key metrics/numbers inline — wrap them in
+   <span class="stat">27%</span> or <strong> in your markup */
+.app-entry li .stat,
+.app-entry li strong {
+  font-weight: 700;
+  color: #A9720C;
 }
